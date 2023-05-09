@@ -46,6 +46,9 @@
    <p> 
      There was a lot of trial and error involved in this project. I did a lot of reasearch and tried to implement different components that ended up not being 
      compatible with my software version, or just not working for some reason. I definitely had to do some digging to find ways to implement the features that I wanted.
+     Ultimately, I ended up with 3 component classes (ADSR, Filter, OSC) for the UI, and 3 for the backend Data. My Data classes connect to my SynthVoice class (which is 
+     responsible for the actual sound), and my UI classes connect to my Plugin Editor (which is responsible for the UI). The Plugin Processor class is responsible for tracking 
+     changes made by the user and updating the parameters accordingly.
     </p>
   <hr>
       
