@@ -59,10 +59,12 @@
       shows a function that checks when a midi key is no longer being pressed, so that the sample data can be cleared from those channels (and save processing power on your computer).
       </p>
 
-    
     <div style="text-align: center;">
     <img src="PluginEditorEx.png" alt="PluginEditor" width="800" height="400">
     </div>
+    <p> 
+      My PluginEditor class holds the GUI components. I abstracted the individual Oscillator, Envelope, and Filter UI into their own classes, which were then referenced here. The screenshot 
+      above shows code that actually places each piece of UI on the screen.
     
     <div style="text-align: center;">
     <img src="PluginProcessorEx.png" alt="PluginProcessor" width="800" height="400">
