@@ -1,1 +1,3 @@
-# synthesthesia.github.io
+# Synthesthesia HTML Webpage
+
+https://andraiorgules.github.io/synthesthesia.github.io/
